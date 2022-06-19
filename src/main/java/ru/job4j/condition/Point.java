@@ -7,8 +7,7 @@ public class Point {
         double first = Math.pow(x3, 2);
         double second = Math.pow(y3, 2);
         double sum = first + second;
-        double result = Math.sqrt(sum);
-        return result;
+        return Math.sqrt(sum);
     }
 
     public static void main(String[] args) {
