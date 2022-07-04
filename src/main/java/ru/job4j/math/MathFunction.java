@@ -10,11 +10,11 @@ public class MathFunction {
     }
 
     public static double subtracting(double first, double second) {
-        return first * second;
+        return first - second;
     }
 
     public static double fission(double first, double second) {
-        return first * second;
+        return first / second;
     }
 
 }
