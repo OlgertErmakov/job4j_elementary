@@ -10,18 +10,18 @@ public class MathCalculator {
 
     public static double subAndFis(double first, double second) {
         return subtracting(first, second)
-                + fission(first, second);
+                + division(first, second);
     }
 
-    public static double sumAndMultyAndSubAndFis(double first, double second) {
+    public static double sumAndMultyAndSubAndDiv(double first, double second) {
             return sum(first, second)
                     + multiply(first, second)
                     + subtracting(first, second)
-                    + fission(first, second);
+                    + division(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMulty(10, 20) + ", "
-                + subAndFis(10, 20) + ", " + sumAndMultyAndSubAndFis(10, 20));
+                + subAndFis(10, 20) + ", " + sumAndMultyAndSubAndDiv(10, 20));
     }
 }
