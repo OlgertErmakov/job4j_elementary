@@ -21,4 +21,3 @@ public class DivideBySix {
         System.out.println(asd);
     }
 }
-
