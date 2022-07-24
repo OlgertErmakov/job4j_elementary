@@ -1,7 +1,5 @@
 package ru.job4j.condition;
 
-import ru.job4j.converter.Fit;
-
 public class SwitchWeek {
     public static String nameOfDay(int day) {
         String name;
