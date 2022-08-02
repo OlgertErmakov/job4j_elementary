@@ -22,3 +22,4 @@ public class CounterTest {
         assertThat(result).isEqualTo(expected);
     }
 }
+
